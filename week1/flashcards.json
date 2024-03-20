@@ -1,0 +1,94 @@
+[
+    {
+        "term": "Modelling",
+        "definition": "Effective representation and efficient computational modification of geometric shapes"
+    },
+    {
+        "term": "Animation and Simulation",
+        "definition": "Generation and dynamic representation of dynamic imagery on a computer"
+    },
+    {
+        "term": "Image Synthesis",
+        "definition": "Display of models and scenes on a computer"
+    },
+    {
+        "term": "Imaging and Computer Vision",
+        "definition": "Manipulation of images and extraction of information from images"
+    },
+    {
+        "term": "Visualization",
+        "definition": "Methods to visually represent information (large scale, multi dimensional datasets)."
+    },
+    {
+        "term": "What are all images made up of?",
+        "definition": "Pixels (Picture Elements)"
+    },
+    {
+        "term": "What is image resolution?",
+        "definition": "The density of points describing an image."
+    },
+    {
+        "term": "What can the property of a pixel define?",
+        "definition": "Its color or intensity"
+    },
+    {
+        "term": "What is a pure color (Physics deinition)",
+        "definition": "A wave with a wavelength and an amplitude."
+    },
+    {
+        "term": "Tri-Stimulus Color Theory",
+        "definition": "Colors which are a distribution over all wavelengths can be matched by mixing Red (R), Green (G), and Blue (B)."
+    },
+    {
+        "term": "Color Matching",
+        "definition": "Given any light source, regardless of the wavelength distribution it has, we can try to match the color using the following equation: \nX = rR + gG + bB, where r, g, b are the intensities and R, G, B are the pure light sources"
+    },
+    {
+        "term": "Addative Color Mixing",
+        "definition": "Red, Green, Blue"
+    },
+    {
+        "term": "Subtractive Color Mixing",
+        "definition": "Cyan, Magenta, Yellow"
+    },
+    {
+        "term": "Framebuffer",
+        "definition": "An in-memory image of the display. Contains an entry for each pixel being displayed. It is written to in an arbitrary order, but must be read from sequentially by hardware."
+    },
+    {
+        "term": "Rasterization",
+        "definition": "Algorithms for converting infinite precision values into pixels"
+    },
+    {
+        "term": "What is Double Buffering?",
+        "definition": "The use of two framebuffers instead of one."
+    },
+    {
+        "term": "How does Double Buffering work?",
+        "definition": "Drawing into one buffer while displaying the other, then swapping between them to hide visual artifacts."
+    },
+    {
+        "term": "2D Graphics Pipeline",
+        "definition": "Model Scene -> View Scene -> Output"
+    },
+    {
+        "term": "Describe the model scene part of the 2D Graphics Pipeline",
+        "definition": "Build objects from primitives\nObject constructed in local coordinates\nObject placed in world coordinates"
+    },
+    {
+        "term": "Describe the view scene part of the 2D Graphics Pipeline",
+        "definition": "Specify area of scene to view (window)\nSpecify area of display on which to view viewport\nClip scene to window\nMap clipped scene to viewport\nCan take output from several scenes"
+    },
+    {
+        "term": "Describe the output part of the 2D Graphics Pipeline",
+        "definition": "Rasterize vectors to pixels for display\nRasterization works on primitives\nAttributes determine the appearance"
+    },
+    {
+        "term": "Define Local Coordinates",
+        "definition": "Specifies location of primitives in object\nArbitrary units, chosen by modeler"
+    },
+    {
+        "term": "Define World Coordinates",
+        "definition": "Also known as User Coordinates\nSpecify locations of objects in a scene\nSpecify location of clipping window\nUnits depend on graphics API"
+    }
+]
